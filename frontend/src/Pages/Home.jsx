@@ -3,7 +3,7 @@ import { useChatStore } from "../Store/isChatStore.js";
 import Sidebar from "../Componant/Sidebar.jsx";
 import ChatSection from "../Componant/ChatSection.jsx";
 import { ArrowLeft, Users } from "lucide-react";
-
+// homepage
 const Home = () => {
   const { selectedUser, selectUser } = useChatStore();
 
